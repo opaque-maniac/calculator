@@ -34,10 +34,16 @@ Make sure you have Node.js installed on your machine. You can download it from h
 ### Running the app in development
 To run the calculator in development mode with live reloading, use the following command:
    ``` bash
-   npm run build
+   npm run start
    ```
-The compiled project will be in the dist folder.
+The app will run on [localhost](http://localhost:1234)
 
+### Building the app for production
+To buld the app and transpile the typescript for production, use the following command:
+   ``` bash
+   npm run start
+   ```
+The build code will be in the __dist__ folder.
 
 ## Project Structure
 ```
