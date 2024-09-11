@@ -1,0 +1,84 @@
+main {
+  width: 440px;
+  height: 600px;
+  margin: 0px auto;
+  border: 1px solid #000;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#screen {
+  height: 10rem;
+  border: 1px solid green;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+#buttons {
+  display: flex;
+  justify-items: center;
+  align-items: start;
+}
+
+#buttons .first__section,
+#buttons .last__section {
+  height: 380px;
+}
+
+#buttons .first__section {
+  flex-basis: 70%;
+  border-radius: 10px 0px 0px 10px;
+  padding: 1rem;
+  background-color: burlywood;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+#buttons button {
+  display: block;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 700px;
+}
+
+#buttons .first__section button {
+  width: 70px;
+  height: 70px;
+}
+
+#buttons button #decimal {
+  font-size: 40px;
+}
+
+#buttons .last__section {
+  flex-basis: 30%;
+  padding: 1rem;
+  border-radius: 0px 10px 10px 0px;
+  background-color: orange;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+#buttons .last__section button {
+  width: 60px;
+  height: 60px;
+}
+
+#screen-main {
+  font-size: 40px;
+  max-width: 100%;
+  text-align: end;
+  padding-right: 2rem;
+}
+
+#screen-other {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  flex-direction: column;
+  gap: 1rem;
+}
