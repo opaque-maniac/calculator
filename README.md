@@ -16,22 +16,44 @@ A simple web-based calculator built using **HTML**, **CSS**, and **TypeScript**.
 ### Prerequisites
 Make sure you have Node.js installed on your machine. You can download it from here.
 
-## Installation
+### Installation
 1. Clone the repository.
    ``` bash
    git clone https://github.com/opaque-maniac/calculator.git
    ```
 
 2. Navigate to the project directory.
-``` bash
-cd calculator
-```
+   ``` bash
+   cd calculator
+   ```
 3. Install dependencies.
    ``` bash
    npm install
    ```
 
-## Running the app in development
+### Running the app in development
 To run the calculator in development mode with live reloading, use the following command:
-``` bash
+   ``` bash
+   npm run build
+   ```
+The compiled project will be in the dist folder.
 
+
+## Project Structure
+```
+calculator/
+│
+├── dist/                # Compiled production files (generated after build)
+│
+├── src/                 # Source code
+│   ├── scripts/         # TypeScript logic
+│   │   └── index.ts     # Main TypeScript file
+│   ├── styles/          # CSS files
+│   │   └── styles.css   # Main CSS file
+│   └── index.html       # Main HTML file
+│
+├── package.json         # Project configuration and dependencies
+├── tsconfig.json        # TypeScript configuration
+├── .gitignore           # Git ignore file
+└── README.md            # Project README file
+```
