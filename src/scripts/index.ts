@@ -11,10 +11,12 @@ const mainDisplay = document.querySelector("#screen-main");
 const signDisplay = document.querySelector("#sign");
 const prevDisplay = document.querySelector("#prev");
 
+// Variables for state
 let total: number = 0;
 let temp: string = "0";
 let sign: string | null = null;
 
+// Update display with new state
 const updateScreen = () => {
   if (mainDisplay) {
     mainDisplay.textContent = temp;
